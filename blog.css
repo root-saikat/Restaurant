@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.blog-bnr{
+    height: 350px;
+    background: url(img/blog-bnr.webp) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.blog-bnr h3{
+    padding: 17px;
+    background: white;
+    width: 280px;
+    text-align: center;
+    color: #444444;
+}
+.overly{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.Blog-main{
+    height: fit-content;
+    /* margin-bottom: 20px; */
+    display: grid;
+}
+.blogs{
+    margin: 40px 12%;
+    /* height: fit-content; */
+}
+
+.blogs-top{
+    width: 100%;
+    display: flex;
+    gap: 25px;   
+}
+
+.blogs-top a{
+    text-decoration: none;
+    color: #94703A;
+    font-size: large;
+}
+.blogs-top .fa-solid{
+    margin-left: auto;
+}
+
+
+
+.blogs-body{
+    margin: 6% 0;
+    display: grid;
+    gap: 40px;
+    height: fit-content;
+}
+
+.blogs-div{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    border: .5px solid #44444460;
+}
+
+.blog-div-img{
+    flex-basis: 45%;
+    overflow: hidden;
+    height: 340px;
+}
+.blog-div-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-div-text{
+    flex-basis: 53%;
+    padding: 25px 25px 0 25px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div-text-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-text-top i{
+    font-size: large;
+    margin-left: auto;
+}
+.top-user-nme{
+    display: grid;
+}
+.top-user-nme span{
+    color: #444444;
+}
+
+
+.div-text-middle{
+    margin: 20px 0;
+}
+.div-text-middle:hover h2{
+    color: #94703A;
+}
+.div-text-middle:hover p{
+    color: #94703A;
+}
+
+.div-text-middle h2{
+    font-weight: lighter;
+    font-size: 35px;
+    color: #444444;
+}
+
+.div-text-middle p{
+    color: #444444;
+    margin-top: 15px;
+}
+
+
+.div-text-bottom{
+    display: flex;
+    gap: 20px;
+    margin-top: auto;
+    padding: 20px 0;
+    border-top: .5px solid #44444460;
+}
+
+.div-text-bottom p{
+    color: #444444;
+    font-weight: lighter;
+}
+
+.div-text-bottom i{
+    margin-left: auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+.ftr{
+    /* margin-top: 20px; */
+}

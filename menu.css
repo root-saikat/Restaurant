@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bnr{
+    height: 350px;
+    background: url(img/menu.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.menu-bnr h3{
+    padding: 20px;
+    background: white;
+    width: 25%;
+    text-align: center;
+    color: #444444;
+}
+
+.overly{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.menu-body{
+    margin: 80px 15%;
+    display: grid;
+    gap: 50px;
+}
+
+
+.menu-starter{
+
+}
+
+.menu-starter .top{
+    display: grid;
+    width: 100%;
+    gap: 20px;
+}
+
+.menu-starter .top h2{
+    text-align: center;
+    font-size: 30px;
+    color: #94703A;
+}
+
+.menu-starter .top p{
+    color: #444444;
+}
+.menu-starter .top hr{
+    color: #444444;
+    height: 2px;
+    background: #44444461;
+}
+
+
+
+/* items */
+
+.items{
+   margin: 35px 0;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+   gap: 5%;
+}
+
+.items-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    box-shadow: 3px 3px #94703a6f;
+}
+.items-div::after{
+    content: ". . . . . . . . . . . . . . . ";
+    letter-spacing: 4px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    font-size: large;
+    color: #444444;
+}
+.items-div span{
+    font-size: large;
+}
+.items-div p{
+    color: #444444;
+}
+.items-div strong{
+    color: #444444;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.star i{
+    font-size: xx-large;
+}

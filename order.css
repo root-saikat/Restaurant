@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.order-bnr{
+    height: 350px;
+    background: url(img/order-bnr.jpg) no-repeat;
+    background-size: cover;
+    background-position:center top;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.order-bnr h3{
+    padding: 20px;
+    background: white;
+    width: 25%;
+    text-align: center;
+    color: #444444;
+}
+
+.overly{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.order-body{
+    margin: 40px 12%;
+}
+
+
+.delivary{
+    padding: 10px 15px;
+    border: 1px solid #94703A;
+    width: fit-content;
+}
+
+.d-nav{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin-top: 40px;
+    border-bottom: .5px solid #94703a94;
+    padding-bottom: 10px;
+}
+.d-nav span , i{
+    font-size: larger;
+    color: #444444;
+}
+.d-nav .ml{
+    margin-left: 5%;
+}
+.d-nav i{
+    margin-left: auto;
+}
+.d-nav a{
+    text-decoration: none;
+    color: #444444;
+}
+.d-nvm{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: larger;
+    align-items: center;
+    padding: 5px;
+}
+.ml{
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.fa-cart-arrow-down{
+    cursor: pointer;
+}
+.d-list{
+
+}
+
+.d-list h2{
+    font-weight: 400;
+    font-size: 35px;
+    color: #94703A;
+    
+}
+.hed{
+    margin: 25px 0;
+}
+.items{
+    margin: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 35px;
+}
+
+.top{
+    display: grid;
+    gap: 8px;
+}
+.top p{
+    color: #444444;
+}
+.items-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    /* padding-bottom: 40px; */
+    padding-top: 15px;
+    border-top: 1px solid #94703A;   
+    border-bottom: 1px solid #94703A;   
+}
+
+.items-div span{
+    color: #94703A;
+    font-size: 20px;
+}
+.items-div p{
+    color: #444444;
+}
+
+
+.crt{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: auto;
+    padding-right: 5px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    /* width: 100px; */
+    /* display: none; */
+}
+
+
+.fa-cart-plus{
+    display: flex;
+    gap: 8px;
+    background: #94703A;
+    padding: 5px;
+    color: white;
+}
+
+.fa-heart{
+    color: #94703A;
+}
+
+
+
+
+
+
+.ftr i{
+    color: white;
+}

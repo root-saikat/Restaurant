@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-main{
+    width: 100%;
+    /* height:100vh; */
+    /* margin-bottom: 20px; */
+}
+.contact-main .ct-bnr{
+    height: 350px;
+    background: url(img/top\ bnr.webp) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.ct-bnr h3 {
+    padding: 20px;
+    background: white;
+    width: 25%;
+    text-align: center;
+    color: #444444;
+}
+
+
+.ct-ct{
+    margin: 0 12%;
+    margin-top: 8%;
+    margin-bottom: 2.5%;
+}
+
+.ct-reserv{
+    display: grid;
+    gap: 25px;
+    margin-bottom: 10%;
+}
+.ct-reserv h3{
+    font-size:30px;
+    color:#94703a ;
+    font-style: italic;
+    margin-left: 4%;
+}
+
+.dte, .time,.size,.book{
+    border: 1px solid #444444;
+    
+}
+
+.ct-form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4%;
+}
+.ct-address{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.ct-address h3{
+    font-size: 30px;
+    color: #94703a;
+    font-style: italic;
+
+}
+.ct-address p{
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 21px;
+    color: #605e5e;
+}
+.ppp{
+    margin: 20px 0;
+}
+.frm-st{
+    flex-basis: 50%;
+    margin-top: auto;
+    margin-right: 8%;
+}
+.frm-st .st-sp{
+    font-size: 18px;
+    line-height: 21px;
+    color: #605e5e;
+}
+.ct-map{
+    flex-basis: 50%;
+    
+}
+.frm{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 15px;
+}
+.frm span{
+    color: #2f2e2e;
+    font-size: 16px;
+}
+.frm input{
+    color: #94703a;
+    height: 25px;
+}
+.frm-lft{
+    display: grid;
+    gap: 10px;
+    
+}
+.frm-r8{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.frm-r8 textarea{
+    resize: none;
+    padding: 10px;
+}
+
+.frm-st button{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+    background: #94703a;
+    color: white;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.frm-st button:hover{
+    background: green;
+}
