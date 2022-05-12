@@ -152,3 +152,28 @@
 .ftr{
     /* margin-top: 20px; */
 }
+
+
+@media screen and (max-width:450px) {
+    .blogs{
+        margin: 40px 3%;
+        /* height: fit-content; */
+    }
+    .blogs-top{
+        gap: 20px;
+        align-items: center;
+    }
+    .blog-div-text{
+        height: unset;
+    }
+    .blog-div-text{
+        padding: 15px 8px 0 5px;
+    }
+    .div-text-top{
+        gap: 4px;
+    }
+    .div-text-middle h2{
+        font-size: 20px;
+    }
+
+}

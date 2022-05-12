@@ -442,3 +442,143 @@ footer span{
 .exitto{
     max-height: 0;
 }
+
+
+
+/* media query */
+
+@media screen and (max-width:450px) {
+    .header-main {
+        margin: 0 1%;
+    }
+    .header-main .logo{
+        margin-top: 0;
+    }
+    .header{
+        height: fit-content;
+    }
+    .menu nav ul {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin: 5px 25%;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+       /* display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        text-align: center; 
+    } */
+    /* .menu nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .menu nav{
+        position: absolute;
+        top: 30%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        height: fit-content;
+    }
+    .menu nav ul li a{
+        padding: 8px 2px;
+        background: #444444;
+        color: white;
+    } */
+    .main .top-bnr{
+        height: 500px;
+    }
+
+    .aboutus {
+        margin: 0 1%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .aboutus-top{
+        gap: 2%;
+    }
+    .top-text .p1 {
+        font-size: 33px;
+    }
+    .middle-txt {
+        position: absolute;
+        top: 27%;
+        left: 10%;
+        padding: 10px 20px;
+    }
+    .aboutus-bottom p {
+        font-size: 21px;
+    }
+    .reservations h3{
+        font-size: 2rem;
+    }
+    .reserv-inner{
+        margin: 0 1%;
+    }
+    .dte, .time, .size span {
+        font-size: small;
+    }
+    .dte, .time, .size{
+        padding: 3px;
+    }
+    .dte, .time, .size{
+        width: 24%;
+        height: fit-content;
+    }
+    .book{
+        font-size: large;
+    }
+    .reserv-dte{
+        align-items: center;
+    }
+    .messenger{
+        width: 250px;
+        z-index: 100;
+        right: 5px;
+        height: 300px;
+    }
+    .msg-top .cross{
+        right: 13px;
+    }
+
+    /* order page */
+    .order-bnr h3{
+        width: 55%;
+    }
+    .order-body {
+        margin: 40px 5%;
+    }
+    .fa-solid.fa-chevron-down {
+        font-size: large;
+    }
+    .crt{
+        margin-top: auto;
+    }
+    /* menu */
+    .menu-body{
+        margin: 80px 5%;
+    }
+    .items-div::after {
+        content: ". . . . . . . . . . . . ";
+    }
+    .star i{
+        position: absolute;
+        bottom: 35px;
+        right: 5px;
+    }
+    .items{
+        grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
+    }
+    /* blogs */
+    /* contact  us */
+    .ct-bnr h3{
+        width: 55%;
+    }
+    
+
+
+   
+}

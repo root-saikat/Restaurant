@@ -133,3 +133,27 @@
 .frm-st button:hover{
     background: green;
 }
+
+
+
+@media screen and (max-width:450px) {
+    .ct-bnr h3{
+        width: 55%;
+    }
+    .ct-ct {
+        margin: 0 2%;
+        margin-top: 8%;
+        margin-bottom: 2.5%;
+    }
+    .ct-form{
+        flex-direction: column;
+        margin: 0 2%;
+    }
+    .ct-map{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .frm-st{
+        margin-right:0;
+    }
+}
