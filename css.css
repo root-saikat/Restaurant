@@ -577,6 +577,14 @@ footer span{
     .ct-bnr h3{
         width: 55%;
     }
+    .footer-inner{
+        margin: 0 2%;
+        gap: 30px;
+    }
+    .chatbox{
+        z-index: 12;
+    }
+    
     
 
 
