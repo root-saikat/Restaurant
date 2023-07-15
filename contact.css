@@ -93,7 +93,6 @@
 .frm{
     display: flex;
     justify-content: space-between;
-    
     margin-top: 15px;
 }
 .frm span{
@@ -136,7 +135,7 @@
 
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:500px) {
     .ct-bnr h3{
         width: 55%;
     }
@@ -155,5 +154,11 @@
     }
     .frm-st{
         margin-right:0;
+    }
+    .frm{
+        gap: 20px;
+    }
+    .frm-r8 textarea {
+        width: 100%;
     }
 }
