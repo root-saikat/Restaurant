@@ -1,29 +1,3 @@
-// const parallax = document.getElementById("prlx");
-// window.addEventListener("scroll", function () {
-//     let offset = window.pageYOffset;
-//     console.log('Offset: ' + offset);
-//     // parallax.style.backgroundPositionY = offset * 0.7 + "px";
-// })
-
-
-// 2nd 
-
-// const parallax = document.querySelectorAll(".parallax");
-// window.addEventListener("scroll", function() {
-//     let offset = window.pageYOffset;
-//     parallax.forEach(function(prllx, i) {
-//         console.log("Parallax " + i + ": " + prllx.offsetTop + " / Window: " + offset);
-//         prllx.style.backgroundPositionY = (offset - prllx.offsetTop) * 0.7 + "px";
-//     })
-// })
-
-// msgbox exit
-
-// var exit = document.querySelector(".messenger");
-
-// function exittog(){
-//     exit.classList.toggle("exitto"); 
-// }
 
 
 document.querySelector(".cross").addEventListener("click", function(){
@@ -55,4 +29,20 @@ document.querySelectorAll('.nav-link').forEach(link => {
   })
 
 
+// mobile menu 
+let micon = document.querySelector('.phone-menu');
+let mnav = document.querySelector('.mobile-menu');
+let mxicon = document.querySelector('.x-mark');
 
+micon.addEventListener('click', () =>{
+    mnav.style.display = "flex";
+});
+mxicon.addEventListener('click', () =>{
+    mnav.style.display = "none";
+});
+
+let am = document.querySelectorAll('.nav-link').forEach(element=>{
+    element.onclick = function(){
+      mnav.style.display = "none";
+    }
+});
