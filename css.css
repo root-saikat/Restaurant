@@ -336,12 +336,13 @@ footer span{
 .footer-left input{
     height: 35px;
 }
-.footer-left a{
+.subs{
     text-decoration: none;
     color: black;
     background: white;
     text-align: center;
     padding: 5px;
+    cursor: pointer;
 }
 
 
@@ -443,6 +444,9 @@ footer span{
     max-height: 0;
 }
 
+input[type="email"],input[type="text"]{
+    padding-left: 10px;
+}
 
 
 /* media query */
