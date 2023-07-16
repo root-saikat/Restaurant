@@ -90,6 +90,10 @@
     flex-basis: 50%;
     
 }
+.ct-map iframe {
+    width: 100%;
+    height: 100%;
+}
 .frm{
     display: flex;
     justify-content: space-between;
